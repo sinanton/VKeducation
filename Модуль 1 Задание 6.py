@@ -1,0 +1,6 @@
+input_str = input()
+modified_str = input_str.lower()
+modified_str = modified_str.replace("!", "").replace("%", "").replace("#", "").replace("@", "")
+num_replacements = len(input_str) - len(modified_str)
+print(num_replacements)
+print(modified_str)
